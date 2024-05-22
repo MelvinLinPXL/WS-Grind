@@ -1,0 +1,22 @@
+form {
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div label {
+    width: 150px;
+    margin-right: 35px;
+    border: dotted 1px;
+}
+
+div input {
+    width: 100%;
+}

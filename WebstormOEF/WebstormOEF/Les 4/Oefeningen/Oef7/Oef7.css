@@ -1,0 +1,12 @@
+#input {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#output {
+    width: 450px;
+}
+
+label {
+    padding-right: 15px;
+}
