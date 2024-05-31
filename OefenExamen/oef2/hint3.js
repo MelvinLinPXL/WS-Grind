@@ -1,6 +1,6 @@
 // de hekjes ### moet je nog vervangen door eigen code om het 
 // programma werkend te krijgen
-
+/*
 function hint() {
     fetch('http://localhost:3000/gebruiker/?naam=tim')
         .then((response) => {
@@ -33,3 +33,4 @@ function hint() {
 }
 
 hint();
+*/

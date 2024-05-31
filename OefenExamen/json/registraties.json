@@ -1,12 +1,151 @@
 {
   "registratie": [
-    { "id": 1, "gebruiker_id" : 1, "tijd": 1681100000000 },
-    { "id": 2, "gebruiker_id" : 1, "tijd": 1681200000000 },
-    { "id": 3, "gebruiker_id" : 2, "tijd": 1691100000000 }                
+    {
+      "id": 1,
+      "gebruiker_id": 1,
+      "tijd": 1681100000000
+    },
+    {
+      "id": 2,
+      "gebruiker_id": 1,
+      "tijd": 1681200000000
+    },
+    {
+      "id": 3,
+      "gebruiker_id": 2,
+      "tijd": 1691100000000
+    }
   ],
   "gebruiker": [
-    { "id": 1,  "naam": "tim",    "nummerplaat": "1-AQK-834" },
-    { "id": 2,  "naam": "sofie",  "nummerplaat": "TNA-665" },
-    { "id": 3,  "naam": "tim",    "nummerplaat": "0-CPM-771" }
+    {
+      "id": 1,
+      "naam": "tim",
+      "nummerplaat": "1-AQK-834"
+    },
+    {
+      "id": 2,
+      "naam": "sofie",
+      "nummerplaat": "TNA-665"
+    },
+    {
+      "id": 3,
+      "naam": "tim",
+      "nummerplaat": "0-CPM-771"
+    },
+    {
+      "naam": "asdfsdf",
+      "nummerplaat": "fdffdfd",
+      "id": 6
+    },
+    {
+      "naam": "asdfsdf",
+      "nummerplaat": "fdffdfd",
+      "id": 7
+    },
+    {
+      "naam": "melvin",
+      "nummerplaat": "cnl-4-2",
+      "id": 8
+    },
+    {
+      "naam": "melvin",
+      "nummerplaat": "cnl-4-2",
+      "id": 9
+    },
+    {
+      "naam": "melvin",
+      "nummerplaat": "dygjdhg",
+      "id": 10
+    },
+    {
+      "naam": "sffd",
+      "nummerplaat": "sdf",
+      "id": 11
+    },
+    {
+      "naam": "sdf",
+      "nummerplaat": "sdf",
+      "id": 12
+    },
+    {
+      "naam": "fsdasdf",
+      "nummerplaat": "asdff",
+      "id": 13
+    },
+    {
+      "naam": "fsdasdf",
+      "nummerplaat": "asdff",
+      "id": 14
+    },
+    {
+      "naam": "asdsdf",
+      "nummerplaat": "aaa",
+      "id": 15
+    },
+    {
+      "naam": "asdfsf",
+      "nummerplaat": "asdffd",
+      "id": 16
+    },
+    {
+      "naam": "asdfsadfasf",
+      "nummerplaat": "asdfasdf",
+      "id": 17
+    },
+    {
+      "naam": "asdfsdadf",
+      "nummerplaat": "sadf",
+      "id": 18
+    },
+    {
+      "naam": "asdfsadf",
+      "nummerplaat": "asdfsdaf",
+      "id": 19
+    },
+    {
+      "naam": "asdfasdf",
+      "nummerplaat": "asdfsadf",
+      "id": 20
+    },
+    {
+      "naam": "asdf",
+      "nummerplaat": "asf",
+      "id": 21
+    },
+    {
+      "naam": "asdfasdf",
+      "nummerplaat": "asdfasdf",
+      "id": 22
+    },
+    {
+      "naam": "asdfasdf",
+      "nummerplaat": "asdfasdf",
+      "id": 23
+    },
+    {
+      "naam": "asdfasdf",
+      "nummerplaat": "asdfasdf",
+      "id": 24
+    },
+    {
+      "naam": "asdfasdf",
+      "nummerplaat": "asdfasdf",
+      "id": 25
+    },
+    {
+      "naam": "asdfasdf",
+      "nummerplaat": "asdfasdf",
+      "id": 26
+    },
+    {
+      "naam": "asdfasdf",
+      "nummerplaat": "asdfasdf",
+      "id": 27
+    },
+    {
+      "naam": "fdf",
+      "nummerplaat": "fdf",
+      "id": 28
+    }
   ]
 }

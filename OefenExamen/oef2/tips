@@ -1,8 +1,70 @@
+Dates:
 
+
+
+let tijd = new Date(1681100000000);
+console.log(tijd.toLocaleString("be-BE"));
+
+
+
+
+how to work with miliseconds since january 1, 1970 00:00:00 UTC Unix Epoch
+
+// Given timestamp
+let timestamp = 1681100000000;
+
+// Create a new Date object using the timestamp
+let date = new Date(timestamp);
+
+// Extract specific parts of the date
+let year = date.getFullYear();
+let month = date.getMonth() + 1; // Months are zero-based, so add 1
+let day = date.getDate();
+let hours = date.getHours();
+let minutes = date.getMinutes();
+let seconds = date.getSeconds();
+
+// Format hours to 12-hour format and determine AM/PM
+let ampm = hours >= 12 ? 'PM' : 'AM';
+hours = hours % 12;
+hours = hours ? hours : 12; // The hour '0' should be '12'
+
+// Pad minutes and seconds with leading zeros if necessary
+minutes = minutes < 10 ? '0' + minutes : minutes;
+seconds = seconds < 10 ? '0' + seconds : seconds;
+
+// Construct the formatted date string
+let formattedDate = `${month}/${day}/${year}, ${hours}:${minutes}:${seconds} ${ampm}`;
 
 
 Posting Json:
 
+als je de id meteen wil ophalen kan je gebruik maken van de response
+
+    fetch(url,
+            {
+                method: "POST",
+                body: JSON.stringify(gebruiker),
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then((response) => {
+                if (response.status == 201) {
+                    return response.json();
+                } else {
+                    throw `error with status ${response.status}`;
+                }
+            })
+            .then((jsonResponse) =>{
+              let id = jsonResponse.id
+              output.appendChild(document.createTextNode(`Aangemaakt: ${id} ${gebruiker.naam} , ${gebruiker.nummerplaat}`))
+
+            })
+            .catch((error) => {
+                output.appendChild(document.createTextNode(error));
+            });
 
 
 Fetching:
