@@ -1,0 +1,13 @@
+{
+  "olods": [
+    {"id":1  , "naam":"Web Essentials"  , "studiepunten": 3 , "trajectschijf": 1, "semester": 2},
+    {"id":2  , "naam": "Web Advanced" , "studiepunten": 3 , "trajectschijf": 2 , "semester": 1 },
+    {"id":3  , "naam": "Web Expert" , "studiepunten": 3 , "trajectschijf": 3 , "semester": 1 },
+    {"id":4  , "naam": "Programming Essentials"  , "studiepunten": 6 , "trajectschijf": 1 , "semester": 1 },
+    {"id":5  , "naam": "Programming Advanced"  , "studiepunten": 6 , "trajectschijf": 2 , "semester": 1},
+    {"id":6  , "naam": "Programming Expert" , "studiepunten": 6 , "trajectschijf": 3 , "semester": 1 },
+    {"id":7  , "naam": "Business Flow Essentials"  , "studiepunten": 3 , "trajectschijf": 1 , "semester": 1 },
+    {"id":8  , "naam": "Business Flow Advanced"  , "studiepunten": 6 , "trajectschijf": 2 , "semester": 2},
+    {"id":9  , "naam": "Business Flow Expert" , "studiepunten": 3 , "trajectschijf": 3 , "semester": 1 }
+  ]
+}
