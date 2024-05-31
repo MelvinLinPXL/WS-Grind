@@ -1,0 +1,52 @@
+Debugging :
+
+Use Alert() to check if an if statement is properly written
+Use Console.log to check what variables are moving around and how they are written
+Use Try catch blocks for catching specific errors
+Use Comments to isolate errors
+
+module exporting :
+
+---------------------------------------------------------------------------------
+
+Module Exporting 1 Class
+
+class MyClass {
+}
+
+this only exports MyClass which means all the other classes
+in this file will not be available to use
+
+module.exports = MyClass
+
+importing 1 class
+
+example : const thenameofhowyouaregoingtocallit = require("thepathtoyourjsfile");
+const MyClass = require("./util/MyClass");
+
+---------------------------------------------------------------------------------
+exporting multiple classes from a file :
+
+// MyClass.js
+class MyClass1 {
+  // Class definition
+}
+
+class MyClass2 {
+  // Class definition
+}
+
+// Exporting an object with properties representing each class
+module.exports = {
+  MyClass1,
+  MyClass2
+};
+
+----------------------------------------------------------------------------------
+importing this MyClass.js
+// In another file
+const { MyClass1, MyClass2 } = require('./MyClass');
+
+// Now you can use MyClass1 and MyClass2
+const instance1 = new MyClass1();
+const instance2 = new MyClass2();
